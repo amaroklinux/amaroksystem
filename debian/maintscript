@@ -1,0 +1,4 @@
+rm_conffile /etc/amarok/adjustments/10-amaroksystem-synaptic.overwrite 7.9.4~
+rm_conffile /etc/amarok/adjustments/15-amaroksystem.menu 8.3.6~
+rm_conffile /etc/amarok/adjustments/15-amaroksystem.overwrite 8.3.6~
+rm_conffile /etc/amarok/adjustments/README 8.3.6~

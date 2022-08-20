@@ -1,0 +1,14 @@
+[Nemo Action]
+Active=true
+Name=Check SHA256
+Name[de]=Prüfe SHA256-Hash
+Name[fr]=Vérifier le SHA256
+Name[pt_BR]=Verificar o SHA256
+Comment=Check the SHA256 signature of the file
+Comment[de]=Prüfe den SHA256-Hash der Datei
+Comment[fr]=Vérifier la signature SHA256 de ce fichier
+Comment[pt_BR]=Verificar a assinatura SHA256 do arquivo
+Exec=amarok-sha256sum '%F'
+Icon-Name=system-run-symbolic
+Selection=S
+Mimetypes=application/x-iso9660-image;

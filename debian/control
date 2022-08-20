@@ -1,0 +1,21 @@
+Source: amaroksystem
+Section: admin
+Priority: optional
+Maintainer: Amarok Linux <packages@amaroklinux.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.5.0
+
+Package: amaroksystem
+Architecture: all
+Depends: python3 (>= 3.3),
+         perl,
+         apt,
+         aptitude,
+         amarok-common,
+         amarok-info,
+         zenity,
+	 xapp | xapps-common,
+         ${misc:Depends}
+Description: Amarok Linux System Base Package
+ Used by the desktop and other amarok tools to gather
+ information and process common system tasks.
